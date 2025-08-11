@@ -3,7 +3,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import pandas as pd
 
-
 driver_url = "C:\\Users\\User\\Downloads\\chromedriver-win32\\chromedriver.exe"
 service = Service(driver_url)
 driver = webdriver.Chrome(service= service)
